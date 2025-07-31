@@ -1,40 +1,51 @@
 #include<iostream>
 using namespace std;
-struct Node{
-    int data;
-    Node* next;
+#define MAX_SIZE 100
+class Stack{
+private :
+   int stack MAX_SIZE, top;
+public :
+   Stack(){
+      top = -1;
+   }
+   bool isEmpty(){
+      return(top == -1);
+   }
+   bool isFull(){
+      return(top == MAX_SIZE - 1);
+   }
+   //pushing
+   void push(int value){
+      if(isFull()){
+         cout<<"Stack overflow ! cannot push"<<value<<endl;
+         return;
+      }
+      stack[++top]=value;
+      cout<<"Pushed : "<<value<<" into the stack"<<endl;
+   }
+   //popping
+   int pop(){
+      if(isEmpty()){
+         cout<<"Cannot pop from an empty stack!"<<endl;
+         return -1;
+      }
+      return stack[top--];
+   }
+   //peeking
+   int peek(){
+      if(isEmpty()){
+         cout<<"Stack is empty"<<endl;
+         return -1;
+      }
+      return stack[top];
+   }
 };
-void InsertAtBeginning(Node* &head, int value){
-    Node* newNode = new Node();
-    newNode->data = value;
-    newNode->next = head;
-    head = newNode;
-}
-void InsertAtEnd(Node* &head, int value){
-    Node* newNode = new Node();
-    newNode->data = value;
-    newNode->next = nullptr;
-    if(head == nullptr){
-        head = newNode;
-        return;
-    }
-    Node* temp = head;
-    while(temp->next != nullptr){
-        temp = temp->next;
-    }
-    temp->next = newNode;
-}
 int main(){
-    Node* head = nullptr;
-    InsertAtBeginning(head, 10);
-    InsertAtBeginning(head, 20);
-    cout<<"After inserting at the beginning : ";
-    printList(head);
+   Stack s;
+   s.push(10);
+   s.push(20);
+   s.push(30);
 
-    InsertAtEnd(head, 30);
-    InsertAtEnd(head, 40);
-    cout<<"After inserting at the end : ";
-    printList(head);
-
-    return 0;
+   cout<<"Top element : "<<s.peek()<<endl;
+   cout<<"Popped"<<s.pop()<<endl;
 }
