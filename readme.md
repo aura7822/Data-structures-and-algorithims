@@ -10,14 +10,16 @@
 
 </div>
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 # 📚 Data Structures & Algorithms – C++
 
 This repository contains **implementations of core Data Structures & Algorithms in C++**,  
 covering both **linear** and **non-linear** structures 🚀.
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## 📂 Repository Structure
 📦 dsa-cpp
@@ -32,10 +34,8 @@ covering both **linear** and **non-linear** structures 🚀.
 ┃ ┗ heap.cpp
 ┗ README.md
 
-yaml
-Copy code
-
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## ✨ Topics Covered
 - ✅ Arrays & Strings  
@@ -46,12 +46,15 @@ Copy code
 - ✅ Heaps & Priority Queues  
 - ✅ Sorting & Searching Algorithms  
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## 🚀 Getting Started
 ### 🔧 Prerequisites
 - Install [C++ Compiler (g++)](https://gcc.gnu.org/)  
-- Any IDE or text editor (VS Code recommended ⚡)
+- Any IDE or text editor (VS Code recommended ⚡) others like codeblocks
+  
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### ▶️ Compile & Run
 ```bash
@@ -73,9 +76,10 @@ int main() {
     }
     return 0;
 }
+```
+```bash
 📌 Stack Example
-cpp
-Copy code
+
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -92,10 +96,13 @@ int main() {
 
     return 0;
 }
+```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 🔹 Non-Linear Data Structures
+
+```bash
 📌 Binary Tree Example
-cpp
-Copy code
+
 #include <iostream>
 using namespace std;
 
@@ -126,9 +133,10 @@ int main() {
 
     return 0;
 }
+```
+```bash
 📌 Graph Example (Adjacency List)
-cpp
-Copy code
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -150,16 +158,23 @@ int main() {
     }
     return 0;
 }
+```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚡ Contribution
 Want to add more algorithms (sorting, searching, dynamic programming)?
 Fork the repo and submit a pull request 🔥.
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚠️ Disclaimer
 This repo is purely for educational purposes.
 Not optimized for competitive programming — meant for learning & revision.
 
 <div align="center">
 💡 "Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+Copyright © 2025 || aura.
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  <img src="https://github.com/aura7822/projects/blob/main/c.png" alt="IM AURA Banner" width="100%" height="auto"/>
 
 ⭐ Star the repo if you find it useful!
 
