@@ -174,7 +174,7 @@ Not optimized for competitive programming — meant for learning & revision.
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 Copyright © 2025 || aura.
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  <img src="https://github.com/aura7822/Data-structures-and-algorithims/blob/main/image(3).jpeg" alt="IM AURA Banner" width="100%" height="auto"/>
+  <img src="https://github.com/aura7822/Data-structures-and-algorithims/blob/main/images(3).jpeg" alt="IM AURA Banner" width="100%" height="auto"/>
 
 ⭐ Star the repo if you find it useful!
 
